@@ -1,0 +1,227 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    overflow-x: hidden;
+}
+
+header {
+    color: #fff;
+    background-color: #212A31;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    margin: 0;
+    justify-content: center;
+    position: relative;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    background-color: #555;
+}
+
+.resume-button {
+    position: absolute;
+    right: 1rem;
+}
+
+.resume-button a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.resume-button a:hover {
+    background-color: #555;
+}
+
+.greeting {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #212A31;
+    padding: 2rem;
+    text-align: center;
+    flex-direction: column;
+}
+
+.greeting-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.greeting strong {
+    color: #fff;
+    font-size: 3rem;
+}
+
+.greeting h1 {
+    font-size: 2rem;
+    color: #fff;
+    margin-top: 1rem;
+}
+
+.profile-image {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 1rem;
+}
+
+.scroll-down-arrow {
+    display: none;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 12.5rem 0;
+    margin-bottom: 0;
+    position: relative;
+}
+
+section h2 {
+    color: #fff;
+    position: absolute;
+    top: 3rem;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2rem;
+    margin: 0;
+}
+
+#about {
+    background-color: #2E3944;
+}
+
+#about p, #about h2 {
+    color: #fff;
+}
+
+#projects {
+    background-color: #495463;
+}
+
+#projects p, #projects h2 {
+    color: #fff;
+}
+
+#experience {
+    background-color: #2E3944;
+}
+
+#experience p, #experience h2 {
+    color: #fff;
+}
+
+#education {
+    background-color: #212A31;
+}
+
+#education p, #education h2 {
+    color: #fff;
+}
+
+@media (min-width: 768px) {
+    .greeting-content {
+        flex-direction: row;
+        text-align: left;
+        flex-wrap: nowrap;
+    }
+
+    .greeting-text {
+        margin-right: 2rem;
+        flex: 1;
+        min-width: 200px;
+    }
+
+    .profile-image {
+        margin-left: 2rem;
+        margin-top: 0;
+        width: 250px;
+        height: 250px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+
+    .buttons {
+        margin-top: 1rem;
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+    }
+
+    .buttons a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+    }
+
+    .buttons img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+
+    .site-button, .email-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        padding: 0;
+        border: none;
+        background: none;
+        transition: transform 0.3s ease;
+    }
+
+    .site-button:hover, .email-button:hover {
+        transform: scale(1.1);
+    }
+}
