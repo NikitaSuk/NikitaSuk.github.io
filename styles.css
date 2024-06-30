@@ -409,6 +409,7 @@ section h2 {
     width: 2px;
     background: #fff;
     z-index: 1;
+    height: 100%;
 }
 
 .timeline-item:before {
@@ -503,6 +504,7 @@ section h2 {
         margin-left: 1.5rem; /* Consistent margin */
     }
 }
+
 
 /*buttons*/
 .buttons {
