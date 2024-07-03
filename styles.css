@@ -222,8 +222,8 @@ section h2 {
     color: #fff; /* White text */
     border-radius: 15px; /* Rounded edges */
     padding: 2rem;
-    width: 275px;
-    height: 275px;
+    width: 275px; /* Fixed width */
+    height: 275px; /* Fixed height */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -257,7 +257,8 @@ section h2 {
 
 /* Media Queries */
 @media (max-width: 768px) {
-    .project-bubble {
+    /* Remove media query specific to project-bubble to maintain the same size */
+    /* .project-bubble {
         width: 80%;
         height: auto;
         padding: 1.5rem;
@@ -274,7 +275,7 @@ section h2 {
 
     .project-bubble .project-description {
         font-size: 0.9rem;
-    }
+    } */
 }
 
 /* Skills section */
