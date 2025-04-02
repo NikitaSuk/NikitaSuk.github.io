@@ -13,11 +13,11 @@ const Projects = () => {
       tech: ['JavaScript', 'HTML', 'CSS'],
     },
     {
-      title: 'Password Manager',
-      description: 'A command-line password manager written in Python. Store, generate, retrieve, update, and delete passwords easily with secure encryption.',
+      title: 'EzPass Password Manager',
+      description: 'Python-based password manager featuring both a graphical and command-line interface for flexible use. It employs robust encryption via the cryptography library to secure stored passwords.',
       image: '/password-manager.png',
-      link: 'https://github.com/NikitaSuk/Password-Manager',
-      tech: ['Python'],
+      link: 'https://github.com/NikitaSuk/EzPass',
+      tech: ['Python', 'Encryption', 'Tkinter',],
     },
     {
       title: 'College Social Media App',
