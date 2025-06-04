@@ -4,11 +4,15 @@ const Skills = () => {
   const skills = [
     {
       category: 'Programming Languages',
-      items: ['HTML', 'CSS', 'Tailwind CSS', 'JavaScript', 'Java', 'React', 'GO', 'Python', 'C', 'C#'],
+      items: ['HTML', 'CSS', 'JavaScript', 'Java', 'GO', 'Python', 'C', 'C#'],
+    },
+    {
+      category: 'Frameworks',
+      items: ['Tailwind CSS', 'React', 'Next.js'],
     },
     {
       category: 'Software & Tools',
-      items: ['SolidWorks', 'VSC', 'Git', 'Docker'],
+      items: ['SolidWorks', 'WordPress','VSC', 'Git', 'Docker'],
     },
     {
       category: 'Technical Skills',
@@ -21,7 +25,9 @@ const Skills = () => {
         'Web Development',
         'Database Management',
         'Time Management',
-        'Organization'
+        'Organization',
+        'Research',
+        'Communication',
       ],
     },
   ];

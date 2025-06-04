@@ -3,6 +3,18 @@
 const Experience = () => {
   const experiences = [
     {
+      title: 'Website Refresh Intern',
+      company: 'Colonial Webb',
+      location: 'Richmond, VA',
+      period: 'May. 2025 - Present',
+      description: [
+        'Audited website UX, content, and accessibility, identifying 15+ improvement opportunities',
+        'Benchmarked 20 competitor sites to inform UI, structure, and content enhancements',
+        'Implemented and developed modern website design in WordPress, improving responsiveness and interactivity',
+      ],
+      technologies: ['Wordpress', 'Research', 'Team Leadership']
+    },
+    {
       title: 'Co-Founder and Lead Engineer',
       company: 'Herein Solutions',
       location: 'Blacksburg, VA',

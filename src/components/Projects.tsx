@@ -22,9 +22,9 @@ const Projects = () => {
     {
       title: 'College Social Media App',
       description: 'A work-in-progress social media platform designed specifically for college students to connect, share experiences, and build communities.',
-      image: '/workinprogress.jpeg',
+      image: '/EchoChamber Transparent.png',
       link: '#',
-      tech: ['React', 'Node.js', 'MongoDB'],
+      tech: ['React', 'Python', 'MongoDB'],
       status: 'In Progress',
     },
   ];
