@@ -9,9 +9,9 @@ export default function Home() {
     <main>
       <Hero />
       <About />
+      <Experience />
       <Projects />
       <Skills />
-      <Experience />
     </main>
   );
 }

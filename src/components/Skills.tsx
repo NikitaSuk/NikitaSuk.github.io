@@ -4,15 +4,15 @@ const Skills = () => {
   const skills = [
     {
       category: 'Programming Languages',
-      items: ['HTML', 'CSS', 'JavaScript', 'Java', 'GO', 'Python', 'C', 'C#'],
+      items: ['Python','JavaScript', 'Java', 'HTML', 'C', 'TypeScript', 'GO', 'CSS', 'MongoDB'],
     },
     {
       category: 'Frameworks',
-      items: ['Tailwind CSS', 'React', 'Next.js'],
+      items: ['React', 'Next.js', 'Tailwind CSS', 'FastAPI' ],
     },
     {
-      category: 'Software & Tools',
-      items: ['SolidWorks', 'WordPress','VSC', 'Git', 'Docker'],
+      category: 'Tools & Software',
+      items: ['Git', 'Github/Gitlab', 'VSCode', 'Docker', 'WordPress', 'Webflow', 'SharePoint', 'Vercel'],
     },
     {
       category: 'Technical Skills',
@@ -23,17 +23,20 @@ const Skills = () => {
         'UI/UX Design',
         'Responsive Design',
         'Web Development',
-        'Database Management',
-        'Time Management',
+        'Logistics',
         'Organization',
-        'Research',
-        'Communication',
+        'Time Management',
+        'Frontend',
+        'Backend',
+        'Fullstack',
+        'Agile',
+        'Prompt Engineering',
       ],
     },
   ];
 
   return (
-    <section id="skills" className="py-20 bg-gradient-to-br from-gray-200 via-gray-300 to-gray-200 transition-colors duration-500">
+    <section id="skills" className="py-20" style={{ backgroundColor: '#f5f5f5' }}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-3xl font-bold text-center text-gray-800 mb-12 transition-colors duration-300">
           Skills

@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 const Hero = () => {
   return (
-    <section id="home" className="min-h-screen flex items-center bg-gradient-to-br from-gray-200 via-gray-300 to-gray-200 transition-colors duration-500">
+    <section id="hero" className="min-h-screen flex items-center" style={{ backgroundColor: '#f5f5f5' }}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
