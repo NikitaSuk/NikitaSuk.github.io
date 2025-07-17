@@ -61,6 +61,12 @@ const Navbar = () => {
               About
             </button>
             <button
+              onClick={() => scrollToSection('experience')}
+              className="text-gray-600 hover:text-blue-600 transition-colors duration-300"
+            >
+              Experience
+            </button>
+            <button
               onClick={() => scrollToSection('projects')}
               className="text-gray-600 hover:text-blue-600 transition-colors duration-300"
             >
@@ -71,12 +77,6 @@ const Navbar = () => {
               className="text-gray-600 hover:text-blue-600 transition-colors duration-300"
             >
               Skills
-            </button>
-            <button
-              onClick={() => scrollToSection('experience')}
-              className="text-gray-600 hover:text-blue-600 transition-colors duration-300"
-            >
-              Experience
             </button>
             <a
               href="https://drive.google.com/file/d/1BJ_VoaGGdHwlf6t-zak8hx9CQiCr6y6N/view"
